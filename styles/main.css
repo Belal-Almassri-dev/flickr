@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.block {
+	background: #000;
+}
+.main_img {
+    max-height: 160px;
+    min-height: 160px;
+    margin: 0 auto;
+    display: block;
+	margin-bottom: 12px;
+}
+.item {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 300px;
+	position: relative;
+}
+.item_body {
+    margin: 0 auto;
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 10px;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+    background: #ccc;
+}
+h1 {
+	color: #ccc;
+	text-align: center;
+	padding-top: 20px
+}
+
